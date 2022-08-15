@@ -1,0 +1,80 @@
+// costumer
+.costumer{
+    padding: 100px 0;
+    background: #F8F9FA;
+    .costumer_title{
+        // border: 2px solid red;
+        text-align: center;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .costumer_all_card{
+        gap: 30px;
+        justify-content: center;
+        margin-top: 50px;
+        .card{
+            width: 350px;
+            height: 270px;
+            border-radius: 5px;
+            background:#fff;
+            text-align: start;
+            padding: 40px;
+            border: 1px solid #e4dddd;
+            transition: all .3s linear;
+            &:hover{
+               border: 1px solid #000; 
+            }
+            img{
+                width: 50px;
+                border-radius: 50%;
+                margin-right: 20px;
+            }
+            .card-body{
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+}
+// costumer
+// footer
+.footer{
+    padding: 50px;
+    color: grey;
+    h4{
+        color: #000;
+    }
+    .basic_footer{
+        justify-content: space-around;
+        ul li{
+            margin: 15px 0;
+        }
+        .footer_box{
+            width: 400px;
+            p{
+                margin: 10px 0 30px 0;
+            }
+            // border: 1px solid red;
+            .footer_icon{
+                text-align: center;
+                line-height: 40px;
+                font-size: 17px;
+                cursor: pointer;
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                background: #081158;
+                margin: 0 10px;
+                border-radius: 50%;
+                color: #fff;
+
+            }
+        }
+    }
+    .coment_footer{
+        padding-top: 40px;
+        text-align: center;
+    }
+}
+// footer
+
